@@ -12,6 +12,7 @@ import com.google.android.gms.ads.AdView;
 
 
 
+
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -22,6 +23,7 @@ import android.view.MenuItem;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 
 public class MainActivity extends FragmentActivity {
   WebView wv;
@@ -68,6 +70,7 @@ public class MainActivity extends FragmentActivity {
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
 		if (id == R.id.action_settings) {
+			Toast.makeText(MainActivity.this, "No settings as of now!", Toast.LENGTH_SHORT).show();
 			return true;
 		}
 		if(id == R.id.exit){
