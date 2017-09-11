@@ -1,18 +1,7 @@
 package com.hemant.idioms;
 
-
-
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
-
-
-
-
-
-
-
-
-
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
